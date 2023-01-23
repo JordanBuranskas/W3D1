@@ -5,6 +5,21 @@ class Array
             prc.call(self[i])
             i+=1 
         end 
+
+        return self
     end 
+
+    def my_select(&prc)
+
+        new_array = []
+
+        self.my_each(prc.call?
+
+    end
+
+
+
 end 
+
+
 
